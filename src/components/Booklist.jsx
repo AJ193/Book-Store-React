@@ -6,12 +6,12 @@ const BookList = () => {
   const books = [
     {
       id: 1,
-      title: 'One Simple Book',
+      title: 'Book 1',
       author: 'AJ',
     },
     {
       id: 2,
-      title: 'Second Simple Book',
+      title: 'Book 2',
       author: 'AJ',
     },
   ];
