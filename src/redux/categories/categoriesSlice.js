@@ -5,7 +5,7 @@ const initialState = {
   status: '',
 };
 
-const categorySlice = createSlice({
+const categoSlice = createSlice({
   name: 'categories',
   initialState,
   reducers: {
@@ -13,6 +13,6 @@ const categorySlice = createSlice({
   },
 });
 
-export const { chekStatus } = categorySlice.actions;
+export const { chekStatus } = categoSlice.actions;
 
-export default categorySlice.reducer;
+export default categoSlice.reducer;

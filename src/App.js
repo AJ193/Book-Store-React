@@ -1,8 +1,8 @@
 import {
   BrowserRouter as Router, Routes, Route,
 } from 'react-router-dom';
-import BookList from './components/myBookList';
-import Categories from './components/myCategories';
+import BookList from './components/BookList';
+import Categories from './components/Categories';
 import Header from './components/myHeader';
 import './App.css';
 

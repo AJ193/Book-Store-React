@@ -9,7 +9,7 @@ function Header() {
         <ul className="flex">
           <li>
             <h2>
-              <a href="/books" className="logo">Bookstore List</a>
+              <a href="/books" className="logo">Bookstore</a>
 
             </h2>
           </li>

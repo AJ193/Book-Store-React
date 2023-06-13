@@ -1,10 +1,11 @@
+/* eslint-disable import/extensions */
 import { combineReducers } from 'redux';
-import myBooksSlice from './books/booksSlice';
-import categorySlice from './categories/categoriesSlice';
+import myBookSlice from './books/myBooksSlice.js';
+import categoSlice from './categories/categoriesSlice';
 
-const myRootReducer = combineReducers({
-  books: myBooksSlice,
-  categories: categorySlice,
+const rootReducer = combineReducers({
+  books: myBookSlice,
+  categories: categoSlice,
 });
 
-export default myRootReducer;
+export default rootReducer;
