@@ -1,35 +1,18 @@
-// Action Types
-export const SHOW_STATUS = 'books/books/SHOW_STATUS';
+const CHECKED_STATUS = 'bookstore/src/redux/categories/CHECK_STATUS';
 
-// initial State
-const initialState = {
-  categories: [],
-  isLoading: false,
-};
+const initialState = [];
 
-// Reducers
-const categoriesReducer = (state = initialState, action) => {
-  const { type, payload } = action;
-
-  switch (type) {
-    case SHOW_STATUS:
-      return {
-        ...state,
-        categories: [payload],
-        isLoading: false,
-      };
-
+const categoryRiducer = (state = initialState, action = {}) => {
+  switch (action.type) {
+    case CHECKED_STATUS:
+      return 'Under construction';
     default:
-      return initialState;
+      return state;
   }
 };
 
-// Actions
-export const checkStatus = () => (dispatch) => {
-  dispatch({
-    type: SHOW_STATUS,
-    payload: ['Under Construction'],
-  });
-};
+export const checkStatus = () => ({
+  type: CHECKED_STATUS,
+});
 
-export default categoriesReducer;
+export default categoryRiducer;

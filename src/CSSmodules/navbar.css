@@ -1,0 +1,58 @@
+header {
+  height: 70px;
+  width: inherit;
+  padding: 0 3rem;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.size {
+  font-size: 32px;
+  color: black;
+}
+
+link {
+  font-size: 30px;
+}
+
+.menuList {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.links {
+  font-size: 20px;
+  padding: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: red;
+}
+
+.mainLink {
+  color: black;
+  font-weight: 700;
+}
+
+.links:focus {
+  color: rgb(7, 7, 7);
+  transform: scale(1.2);
+}
+
+.logo {
+  font-size: 48px;
+  color: black;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.logo:focus {
+  color: red;
+}
