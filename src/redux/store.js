@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
-import categoriesReducer from './categories/categoriesSlice';
 
-const myStore = configureStore({ reducer: categoriesReducer });
+import myRootReducer from './rootReducers';
+
+const myStore = configureStore({ reducer: myRootReducer });
 export default myStore;
