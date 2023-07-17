@@ -37,7 +37,7 @@ const Books = ({ items }) => {
       <div className="card-middle">
         <div className="progress-spinner" />
         <div className="completed">
-          <p className="progress-percent">70%</p>
+          <p className="progress-percent">65%</p>
           <p className="progress-text">Completed</p>
         </div>
       </div>

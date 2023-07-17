@@ -1,3 +1,4 @@
+
 .genaral-contain {
   margin: 20px 3rem;
   border-top: 1px solid #c0c0c0;
@@ -35,7 +36,7 @@ input {
   border-radius: 4px;
   font-size: 1rem;
   color: rgb(252, 252, 252);
-  background-color: black;
+  background-color: #048ef8;
 }
 
 .categoryEl {

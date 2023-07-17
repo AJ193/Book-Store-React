@@ -13,7 +13,7 @@ nav {
 
 .size {
   font-size: 32px;
-  color: black;
+  color: #227ded;
 }
 
 link {
@@ -30,10 +30,10 @@ link {
 
 .links {
   font-size: 20px;
-  padding: 100px;
+  padding: 10px;
   text-decoration: none;
   text-transform: uppercase;
-  color: red;
+  color: rgb(221, 235, 250);
 }
 
 .mainLink {
@@ -48,11 +48,11 @@ link {
 
 .logo {
   font-size: 48px;
-  color: black;
+  color: #0290ff;
   font-weight: 700;
   text-transform: none;
 }
 
 .logo:focus {
-  color: red;
+  color: #0290ff;
 }

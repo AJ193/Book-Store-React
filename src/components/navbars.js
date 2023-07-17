@@ -6,8 +6,8 @@ const Navbars = () => (
   <header>
     <nav>
       <ul className="menuList">
-        <li><Link className="links logo" to="/">Bookstore</Link></li>
-        <li><Link className="links-mainLink" to="/">Books</Link></li>
+        <li><Link className="links logo" to="/">Bookstore CMS</Link></li>
+        <li><Link className="links mainLink" to="/">Books</Link></li>
         <li><Link className="links" to="/category">Category</Link></li>
       </ul>
     </nav>
