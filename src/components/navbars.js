@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../CSSmodules/navbar.css';
+import { VscAccount } from 'react-icons/vsc';
 
 const Navbars = () => (
   <header>
@@ -10,6 +11,7 @@ const Navbars = () => (
         <li><Link className="links mainLink" to="/">Books</Link></li>
         <li><Link className="links" to="/category">Category</Link></li>
       </ul>
+      <div><VscAccount className="size" /></div>
     </nav>
   </header>
 );

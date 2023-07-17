@@ -4,6 +4,17 @@ import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/bookss';
 import '../CSSmodules/bookitem.css';
 
+const line = {
+  position: 'relative',
+  top: '50px',
+  right: '17vh',
+  width: '5em',
+  border: '1px solid #e3e3e3',
+  transform: 'rotate(90deg)',
+  marginRight: '-4em',
+  alignitems: 'center',
+};
+
 const Books = ({ items }) => {
   const dispatchBook = useDispatch();
   const {
@@ -42,6 +53,7 @@ const Books = ({ items }) => {
         </div>
       </div>
       <div className="card-right">
+        <div style={line} />
         <div>
           <h4>CURRENT CHAPTER</h4>
           <h2>Chapter 10</h2>
