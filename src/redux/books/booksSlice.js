@@ -1,23 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  books: [
-    {
-      item_id: 'item1',
-      title: 'Book 1',
-      author: 'AJ',
-    },
-    {
-      item_id: 'item2',
-      title: 'Book 2',
-      author: 'AJ',
-    },
-    {
-      item_id: 'item3',
-      title: 'Book 3',
-      author: 'AJ',
-    },
-  ],
+  books: [],
 };
 
 const myBooksSlice = createSlice({
