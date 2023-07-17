@@ -1,5 +1,5 @@
 .linkholder,
 .mylinks {
-  display: inline-block;
+  display: inline-flex;
   margin: 0 30px;
 }

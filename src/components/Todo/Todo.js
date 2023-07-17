@@ -5,17 +5,17 @@ const MyTodoList = () => {
     {
       id: 1,
       title: 'Setup development environment',
-      author: 'Ndonyi',
+      author: 'AJ',
     },
     {
       id: 2,
-      title: 'Develop website and add content',
-      author: 'Ndonyi',
+      title: 'Create a website and add content',
+      author: 'AJ',
     },
     {
       id: 3,
       title: 'Deploy to live server',
-      author: 'Ndonyi ',
+      author: 'AJ ',
     },
   ];
   return (
