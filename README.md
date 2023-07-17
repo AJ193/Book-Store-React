@@ -33,9 +33,8 @@
 
 ### Key Features
 
-- Components of the page
-- Form for adding the books
-- Booklist
+- [React Todo App]
+- [Styling css with colors, borders, paddings, margins & sizes, etc] _ [React & javascript functions, modules, ES6 syntax, variables, etc]
 
 <!-- ## Live Demo
 
@@ -75,8 +74,6 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features
 
 - UI improvements
-- Redax
-- Reduction
 - API
 
 ## 🤝 Contributing <a name="contributing"></a>
