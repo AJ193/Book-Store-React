@@ -1,69 +1,118 @@
-### Bookstore
+# RBookstore<div align="center"><h1>BOOKSTORE</h1></div>
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [🔭 Future Features](#future-features)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-## About the Project
+<!-- PROJECT DESCRIPTION -->
 
-> This project is built with React.js, it is a Bookstore for adding and keeping track of the books you are reading.
+# 📖 Bookstore
 
-## Built With
+> This is _**React Bookstore (SPA)**_.
 
-- React.js
-- Jest
-- Gitflow
+## 🛠 Built With <a name="built-with"></a>
+- HTML
+- CSS
+- JS
+### Tech Stack <a name="tech-stack"></a>
 
-### Key Features
+> I Used Gitflow, modules, and advanced React & JS (ES6) in this React Todo App.
 
-- [React Todo App]
-- [Styling css with colors, borders, paddings, margins & sizes, etc] _ [React & javascript functions, modules, ES6 syntax, variables, etc]
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+     <li><a href="https://www.w3schools.com/css/">Javascript</a></li>
+  </ul>
+</details>
 
-<!-- ## Live Demo
+<!-- Features -->
 
-Live demo will be available soon -->
+### Key Features <a name="key-features"></a>
+
+- **[React Todo App]**
+- **[Styling css with colors, borders, paddings, margins & sizes, etc]**
+_ **[React & javascript functions, modules, ES6 syntax, variables, etc]**
 
 
-## Getting Started
+<!-- GETTING STARTED -->
+<!-- AUTHORS -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need the following tools:
+- Node.js in your computer
+- IDE(e.g.: Vscode,...)
+- Terminal
+
+### Setup
 
 Clone this repository to your desired folder:
 
 ```sh
-  cd your-prefer-folder
+  cd your-prefered-folder
+  
   git clone https://github.com/AJ193/Book-Store-React.git
 ```
 
-### Run this command to run server
+### Install
 
-> npm start
+- Install this project with:
 
-### Run this command build server
+``` sh
+  cd bookstore
 
-> npm run build
+  npm install or npm i
+```
 
-### Run this command to run tests
+### Usage
 
-> npm run test
+To run the project, execute the following command:
 
-## 👥 Author <a name="author"></a>
+```sh
+  npm start
 
+```
+
+
+
+### Usage
+_Run the project on Visual Studio Code Live Server._
+<!--
+Example command:
+
+```sh
+  rails server
+### Deployment
+
+You can deploy this project using:
+Not Yet
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+# <a name="authors">AJ193</a>
 
 👤 **Ghulam Shabbir**
 
@@ -71,10 +120,11 @@ Clone this repository to your desired folder:
 - Twitter: [@AJ](https://twitter.com/GhulamShabbir59)
 - LinkedIn: [@AJ](https://www.linkedin.com/in/ghulam-shabbir-225264247/)
 
-## 🔭 Future Features
+## 🔭 Future Features <a name="future-features"></a>
 
-- UI improvements
-- API
+- [x] **[I will Add API for the quotes generator function]**
+- [x] **[I will Deploy this page after completing all things]**
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -82,14 +132,24 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/AJ193/Book-Store-React/issues).
 
-## Show your support
+## ⭐️ Show your support <a name="support"></a>
 
-Give a ⭐️ if you like this project!
+> If you like this project feel comfortable to endorse the authors. Give a star in github repository.
 
-## 🙏 Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-I would like to thank Microverse!
+<!-- ACKNOWLEDGEMENTS -->
 
-## 📝 License
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-This project is [MIT](./LICENSE) licensed.
+> We would like to thank my coding partners, mentors and Microverse for their support in building the project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+> This project has [MIT license](https://github.com/AJ193/Book-Store-React/blob/styling/LICENSE)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
